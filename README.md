@@ -24,6 +24,7 @@ Para fins de otimização paramétrica, a métrica fundamental estabelecida pela
 A etapa de exploração visual permitiu identificar a estrutura latente dos dados e balizar as decisões de engenharia. 
 * **Apresentação Visual:** Histogramas de densidade comprovaram que a distribuição da variável alvo (`SalePrice`) sofre de assimetria positiva substancial (*Right Skewness*), uma característica esperada em ativos financeiros. Gráficos de dispersão (*scatter plots*) evidenciaram a presença de propriedades com vasta área territorial, mas valores atípicos de venda, identificando *outliers* primários.
 <img scr="https://github.com/Kalil-S/Repositorio-de-Desenvolvimento-de-Precos-de-Imoveis/blob/main/plots/eda_engineered_features.png" width="100%">
+
 * **Identificação de Correlações Relevantes:** A matriz de correlação de Pearson destacou que atributos dimensionais globais e índices de qualidade construtiva ostentam as mais elevadas correlações lineares positivas e diretas com o preço. Variáveis fragmentadas ou esparsas isoladamente demonstraram baixo coeficiente de determinação explicativo.
 
 ---
